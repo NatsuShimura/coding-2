@@ -1,0 +1,203 @@
+/* すべてのページに適用される設定 */
+
+
+/* すべてのページに適用 - ヘッダー */
+header h1{
+  color: #FFFFFF;
+  font-size: 30px;
+  margin: 60px;
+}
+header{
+  background-color: #006599;
+  width: 25%;
+  text-align: center;
+}
+body{
+  overflow-x: hidden;
+}
+.wrapper{
+  display: flex;
+  line-height: 1.7;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.sidenav{
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  margin: 30px;
+}
+ul{
+  list-style-type: none;
+  font-size: 13px;
+}
+li{
+  margin: 30px;
+  color: #FFFFFF;
+}
+.nav2{
+  color: #fcf16e;
+  text-align: center;
+  font-size: 13px;
+}
+.logo{
+  margin-top: 60px;
+}
+
+/* すべてのページに適用 - メイン */
+
+img{
+  max-width: 100%;
+}
+.inner{
+  width: 80%;
+  margin: 0 auto;
+}
+/*****Welcome to Neaty Design***/
+.mainwrapper{
+  width: 75%;
+}
+main h1{
+  color: #006599;
+  font-size: 35px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.text p{
+  margin-bottom: 80px;
+  line-height: 1.9;
+}
+
+/*****About the team***/
+main h2{
+  color: #006599;
+  font-size: 30px;
+}
+.text2{
+  font-size: 15px;
+}
+
+.text2 p{
+  margin-bottom: 10px;
+}
+.team-right{
+  margin-left: 40px;
+  line-height: 1.9;
+}
+.team-section{
+  display:flex;
+}
+
+/*****Read More button***/
+.submit{
+  background: #006599;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  padding: 20px 40px;
+  border: none;
+}
+
+/********gallery***/
+.gallery {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.galleryone{
+  text-align: left;
+  margin-top: 60px;
+}
+.item1{
+  display: flex;
+  gap: 1%;
+}
+.item1 img{
+  width: 19.2%;
+}
+.secondgallry{
+    text-align: left;
+    margin-top: 80px;
+}
+.item2{
+  display: flex;
+  margin-bottom: 80px;
+  gap: 2%;
+   float:left;
+}
+.item2 img{
+  width: 32%;
+}
+.thirdgallery{
+  text-align: left;
+}
+.item3{
+  display: flex;
+  gap: 1%;
+}
+.item3 img{
+  width: 24.25%;
+}
+.neaty-02{
+  width: 300px;
+  height: 350px;
+}
+
+/********Contact Us***/
+.contactus{
+  text-align: left;
+  margin-top: 80px;
+}
+.contact{
+  display: flex;
+}
+.form{
+  width: 500px;
+}
+textarea{
+  width: 80%;
+  margin-bottom: 10px;
+  border: #006599 2px solid;
+}
+.name{
+  width: 80%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: #006599 2px solid;
+}
+.mail{
+  width: 80%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: #006599 2px solid;
+}
+.text3{
+  font-size: 15px;
+  margin-top: -6px;
+  margin-left: -50px;
+}
+.text3 p{
+  margin-bottom: 10px;
+}
+.submit2{
+  width: 100px;
+  background: #006599;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  padding: 1rem 1rem;
+  margin-bottom: 100px;
+  border: none;
+}
+
+/* すべてのページに適用 - フッター */
+footer{
+  display: flex;
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: #006599;
+}
